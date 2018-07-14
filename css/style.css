@@ -1,0 +1,140 @@
+body{
+    background-color: #f4f4f4;
+}
+.main-color{
+    background-color: #e74c3c !important;
+    border-color: #e74c3c !important;
+}
+.navbar{
+    border-radius: 0;
+    min-height: 33px;
+    margin-bottom: 0;
+    border: none;
+}
+.navbar-brand,.navbar-nav > li >a{
+    padding-bottom: 0;
+    padding-top: 6px;
+    height: 33px;
+}
+.navbar-default {
+    background-color: #e74c3c;
+    border-color: #c0392b;
+}
+.navbar-default .navbar-brand {
+    color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #ffbbbc;
+}
+.navbar-default .navbar-text {
+    color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ffbbbc;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #ffbbbc;
+    background-color: #c0392b;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #ffbbbc;
+    background-color: #c0392b;
+}
+.navbar-default .navbar-toggle {
+    border-color: #c0392b;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #c0392b;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+    color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+    color: #ffbbbc;
+}
+/*----------------------------------------------------- header -----------------------------------------------*/
+header{
+    background-color: #252524;
+    color: whitesmoke;
+}
+header .page-header{
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 30px !important;
+}
+.dropdown-create-content{
+    margin-top: 40px;
+}
+/*------- breadcrump */
+.breadcrumb{
+    background-color: #cccccc;
+    margin-top: 20px;
+}
+.breadcrumb a{
+    text-decoration: none;
+    color: darkslategray;
+}
+/*--------------- list group ----------------*/
+#main-list{
+    padding: 0;
+}
+/*------------------- progressbar */
+.progress-bar{
+    background-color: darkslategray;
+}
+/*------------------- panel body ----------------*/
+.panel-body .well{
+    text-align: center;
+}
+/*-------------- footer ------------------------------*/
+#footer
+{
+    background-color: #252524;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+#footer .container{
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+/*------------------------ login */
+
+/*------------------------------------ media -------------------------------------*/
+@media (max-width: 800px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ecf0f1;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #ffbbbc;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #ffbbbc;
+        background-color: #c0392b;
+    }
+
+    .dropdown-create-content{
+        padding-bottom: 20px;
+    }
+
+}
